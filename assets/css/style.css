@@ -1,0 +1,179 @@
+body{
+  width: 100%;
+  height: 8657px;
+  margin: 0;
+  font-family: 'Montserrat';
+}
+
+::selection {
+  background: #FD6140;
+  color: rgb(0, 0, 0); 
+}
+
+
+a{
+  text-decoration: none;
+}
+
+
+::-webkit-scrollbar-thumb{
+  background: #000000;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-track{
+  background: #343434;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+
+@media (prefers-reduced-motion: no-preference){
+  :root { scroll-behavior: smooth;
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input{
+  outline:none;
+}
+
+
+
+
+
+
+
+
+main{
+  position: absolute;
+  width: 100%;
+  height: 916px;
+  left: 0px;
+  top: 0px;
+}
+
+header{
+  width: 100%;
+  height: 77px;
+}
+
+.logo{
+  z-index: 1;
+  position: absolute;
+  width: 206px;
+  height: 29px;
+  left: 60px;
+  top: 48px;
+}
+
+
+.back{
+  position: absolute;
+  width: 100%;
+  height: 916px;
+  left: 0px;
+  top: 0px;
+  background: url(..//images/dentists-choose-equipment-table\ 1.png);
+}
+
+
+.rec43{
+  position: absolute;
+  width: 100%;
+  height: 916px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(298.47deg, #3A3A3A -0.91%, #0F0F0F 100%);
+  mix-blend-mode: multiply;
+  opacity: 0.9;
+}
+
+
+.rec89{
+  position: absolute;
+  width: 647px;
+  height: 915px;
+  left: 1263px;
+  top: 0px;background: #8CDAE5;
+  mix-blend-mode: overlay;
+  opacity: 0.8;
+  transition: all .5s;
+}
+
+.rec89:hover{
+  position: absolute;
+  width: 847px;
+  height: 915px;
+  left: 1063px;
+  top: 0px;background: #8CDAE5;
+  mix-blend-mode: overlay;
+  opacity: 0.8;
+}
+
+
+.svaz{
+  z-index: 1;
+  position: absolute;
+  width: 152px;
+  height: 21px;
+  left: 1475px;
+  top: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;text-transform: uppercase;
+  color: #8CDAE5;
+  transition: all .3s;
+}
+
+
+.svaz:hover{
+  color: #00e1ff;
+}
+
+.menu{
+  z-index: 2;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 1824px;
+  top: 44px;
+  transition: all .3s;
+}
+
+
+
+
+
+
+.line1{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 30.56%;
+  bottom: 69.44%;border: 1px solid #FFFFFF;
+}
+
+.line2{
+  position: absolute;
+  left: 22.22%;
+  right: 0%;
+  top: 50%;
+  bottom: 50%;border: 1px solid #FFFFFF;
+}
+
+
+.line3{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 72.22%;
+  bottom: 27.78%;border: 1px solid #FFFFFF;
+}
