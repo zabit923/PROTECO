@@ -104,7 +104,7 @@ header{
   top: 0px;background: #8CDAE5;
   mix-blend-mode: overlay;
   opacity: 0.8;
-  transition: all .5s;
+  transition: all .9s;
 }
 
 .rec89:hover{
@@ -139,6 +139,7 @@ header{
 }
 
 .menu{
+  cursor: pointer;
   z-index: 2;
   position: absolute;
   width: 36px;
