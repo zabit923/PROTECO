@@ -104,7 +104,7 @@ header{
   top: 0px;background: #8CDAE5;
   mix-blend-mode: overlay;
   opacity: 0.8;
-  transition: all .9s;
+  transition: .6s;
 }
 
 .rec89:hover{
@@ -138,43 +138,91 @@ header{
   color: #00e1ff;
 }
 
-.menu{
-  cursor: pointer;
-  z-index: 2;
+.line{
+  z-index: 1;
   position: absolute;
-  width: 36px;
-  height: 36px;
-  left: 1824px;
-  top: 44px;
-  transition: all .3s;
+  width: 156px;
+  height: 1px;
+  left: 1474px;
+  top: 76px;
+  background: #8CDAE5;
 }
 
-
-
-
-
-
-.line1{
+.niz{
+  z-index: 1;
   position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 30.56%;
-  bottom: 69.44%;border: 1px solid #FFFFFF;
+  width: 55px;
+  height: 18px;
+  left: 1696px;
+  top: 785px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;text-align: right;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;color: #8CDAE5;
+  transform: rotate(-90deg);
 }
 
-.line2{
+.lineniz{
   position: absolute;
-  left: 22.22%;
-  right: 0%;
-  top: 50%;
-  bottom: 50%;border: 1px solid #FFFFFF;
+  width: 69px;
+  height: 0px;
+  left: 1689px;
+  top: 880px;
+  border: 1px solid #8CDAE5;
+  transform: rotate(-90deg);
 }
 
-
-.line3{
+.main_title{
+  z-index: 1;
   position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 72.22%;
-  bottom: 27.78%;border: 1px solid #FFFFFF;
+  width: 247px;
+  height: 30px;
+  left: 211px;
+  top: 300px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;text-align: center;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;color: #8CDAE5;
+}
+
+.pod_title{
+  position: absolute;
+  width: 874px;
+  height: 263px;
+  left: 211px;
+  top: 362px;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 130%;text-transform: uppercase;color: #FFFFFF;
+}
+
+.task{
+  position: absolute;
+  width: 613px;
+  height: 72px;
+  left: 364px;
+  top: 1085px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 130%;
+  color: #000000;
+}
+
+.task span{
+  color: #57d8e9;
+}
+
+.gk_is{
+  position: absolute;
+  width: 844px;
+  height: 159px;
+  left: 364px;
+  top: 1245px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
 }
